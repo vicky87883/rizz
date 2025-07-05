@@ -12,14 +12,14 @@
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
                 <!-- App favicon -->
-                <link rel="shortcut icon" href="assets/images/favicon.ico">
+                <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico')}}">
 
        
-        <link href="assets/libs/simple-datatables/style.css" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/simple-datatables/style.css')}}" rel="stylesheet" type="text/css" />
          <!-- App css -->
-         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -53,13 +53,13 @@
                         <li class="dropdown">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="false" aria-expanded="false">
-                            <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-sm rounded-circle">
+                            <img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" class="thumb-sm rounded-circle">
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" height="15" class="me-2">English</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/spain_flag.jpg')}}" alt="" height="15" class="me-2">Spanish</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/germany_flag.jpg')}}" alt="" height="15" class="me-2">German</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/french_flag.jpg')}}" alt="" height="15" class="me-2">French</a>
                             </div>
                         </li><!--end topbar-language-->
         
@@ -251,12 +251,12 @@
                         <li class="dropdown topbar-item">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                                 aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-lg rounded-circle">
+                                <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-lg rounded-circle">
                             </a>
                             <div class="dropdown-menu dropdown-menu-end py-0">
                                 <div class="d-flex align-items-center dropdown-item py-2 bg-secondary-subtle">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md rounded-circle">
+                                        <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-md rounded-circle">
                                     </div>
                                     <div class="flex-grow-1 ms-2 text-truncate align-self-center">
                                         <h6 class="my-0 fw-medium text-dark fs-13">William Martin</h6>
@@ -287,11 +287,11 @@
             <div class="brand">
                 <a href="index.html" class="logo">
                     <span>
-                        <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                        <img src="{{ asset('assets/images/logo-sm.png')}}" alt="logo-small" class="logo-sm">
                     </span>
                     <span class="">
-                        <img src="assets/images/logo-light.png" alt="logo-large" class="logo-lg logo-light">
-                        <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                        <img src="{{ asset('assets/images/logo-light.png')}}" alt="logo-large" class="logo-lg logo-light">
+                        <img src="{{ asset('assets/images/logo-dark.png')}}" alt="logo-large" class="logo-lg logo-dark">
                     </span>
                 </a>
             </div>
@@ -881,7 +881,7 @@
                                                         </div>
                                                     </td>
                                                     <td class="ps-0">
-                                                        <img src="assets/images/products/04.png" alt="" height="40">
+                                                        <img src="{{ asset('assets/images/products/04.png')}}" alt="" height="40">
                                                         <p class="d-inline-block align-middle mb-0">
                                                             <a href="ecommerce-order-details.html" class="d-inline-block align-middle mb-0 product-name">Apple Watch</a> 
                                                             <br>
@@ -907,7 +907,7 @@
                                                         </div>
                                                     </td>
                                                     <td class="ps-0">
-                                                        <img src="assets/images/products/01.png" alt="" height="40">
+                                                        <img src="{{ asset('assets/images/products/01.png')}}" alt="" height="40">
                                                         <p class="d-inline-block align-middle mb-0">
                                                             <a href="ecommerce-order-details.html" class="d-inline-block align-middle mb-0 product-name">Morden Chair</a> 
                                                             <br>
@@ -933,7 +933,7 @@
                                                         </div>
                                                     </td>
                                                     <td class="ps-0">
-                                                        <img src="assets/images/products/05.png" alt="" height="40">
+                                                        <img src="{{ asset('assets/images/products/05.png')}}" alt="" height="40">
                                                         <p class="d-inline-block align-middle mb-0">
                                                             <a href="ecommerce-order-details.html" class="d-inline-block align-middle mb-0 product-name">Reebok Shoes</a> 
                                                             <br>
@@ -959,7 +959,7 @@
                                                         </div>
                                                     </td>
                                                     <td class="ps-0">
-                                                        <img src="assets/images/products/06.png" alt="" height="40">
+                                                        <img src="{{ asset('assets/images/products/06.png')}}" alt="" height="40">
                                                         <p class="d-inline-block align-middle mb-0">
                                                             <a href="ecommerce-order-details.html" class="d-inline-block align-middle mb-0 product-name">Cosco Vollyboll</a> 
                                                             <br>
@@ -1297,11 +1297,11 @@
         <!-- Javascript  -->  
         <!-- vendor js -->
         
-        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/libs/simplebar/simplebar.min.js"></script>
-        <script src="assets/libs/simple-datatables/umd/simple-datatables.js"></script>
-        <script src="assets/js/pages/datatable.init.js"></script>
-        <script src="assets/js/app.js"></script>
+        <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/simple-datatables/umd/simple-datatables.js')}}"></script>
+        <script src="{{ asset('assets/js/pages/datatable.init.js')}}"></script>
+        <script src="{{ asset('assets/js/app.js')}}"></script>
     </body>
     <!--end body-->
 </html>
