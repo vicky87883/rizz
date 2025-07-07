@@ -12,14 +12,14 @@
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
                 <!-- App favicon -->
-                <link rel="shortcut icon" href="assets/images/favicon.ico">
+                <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico')}}">
 
        
 
          <!-- App css -->
-         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -53,13 +53,13 @@
                         <li class="dropdown">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="false" aria-expanded="false">
-                            <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-sm rounded-circle">
+                            <img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" class="thumb-sm rounded-circle">
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" height="15" class="me-2">English</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/spain_flag.jpg')}}" alt="" height="15" class="me-2">Spanish</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/germany_flag.jpg')}}" alt="" height="15" class="me-2">German</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/french_flag.jpg')}}" alt="" height="15" class="me-2">French</a>
                             </div>
                         </li><!--end topbar-language-->
         
@@ -1466,10 +1466,10 @@
         <!-- Javascript  -->  
         <!-- vendor js -->
         
-        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
 
-        <script src="assets/js/app.js"></script>
+        <script src="{{ asset('assets/js/app.js')}}"></script>
     </body>
     <!--end body-->
 </html>

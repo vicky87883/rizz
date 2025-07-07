@@ -12,14 +12,14 @@
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
                 <!-- App favicon -->
-                <link rel="shortcut icon" href="assets/images/favicon.ico">
+                <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico')}}">
 
        
-        <link href="assets/libs/vanillajs-datepicker/css/datepicker.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/vanillajs-datepicker/css/datepicker.min.css')}}" rel="stylesheet" type="text/css" />
          <!-- App css -->
-         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -53,13 +53,13 @@
                         <li class="dropdown">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="false" aria-expanded="false">
-                            <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-sm rounded-circle">
+                            <img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" class="thumb-sm rounded-circle">
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" height="15" class="me-2">English</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/spain_flag.jpg')}}" alt="" height="15" class="me-2">Spanish</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/germany_flag.jpg')}}" alt="" height="15" class="me-2">German</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/french_flag.jpg')}}" alt="" height="15" class="me-2">French</a>
                             </div>
                         </li><!--end topbar-language-->
         
@@ -251,12 +251,12 @@
                         <li class="dropdown topbar-item">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                                 aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-lg rounded-circle">
+                                <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-lg rounded-circle">
                             </a>
                             <div class="dropdown-menu dropdown-menu-end py-0">
                                 <div class="d-flex align-items-center dropdown-item py-2 bg-secondary-subtle">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md rounded-circle">
+                                        <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-md rounded-circle">
                                     </div>
                                     <div class="flex-grow-1 ms-2 text-truncate align-self-center">
                                         <h6 class="my-0 fw-medium text-dark fs-13">William Martin</h6>
@@ -287,11 +287,11 @@
             <div class="brand">
                 <a href="index.html" class="logo">
                     <span>
-                        <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                        <img src="{{ asset('assets/images/logo-sm.png')}}" alt="logo-small" class="logo-sm">
                     </span>
                     <span class="">
-                        <img src="assets/images/logo-light.png" alt="logo-large" class="logo-lg logo-light">
-                        <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                        <img src="{{ asset('assets/images/logo-light.png')}}" alt="logo-large" class="logo-lg logo-light">
+                        <img src="{{ asset('assets/images/logo-dark.png')}}" alt="logo-large" class="logo-lg logo-dark">
                     </span>
                 </a>
             </div>
@@ -864,7 +864,7 @@
                                             <form class="p-4">
                                                 <div class="form-group">
                                                     <div class="d-flex align-items-center">
-                                                        <img src="assets/images/logos/lang-logo/gitlab.png" alt="" class="thumb-xxl rounded me-3">
+                                                        <img src="{{ asset('assets/images/logos/lang-logo/gitlab.png')}}" alt="" class="thumb-xxl rounded me-3">
                                                         <div class="flex-grow-1 text-truncate"> 
                                                             <label class="btn btn-primary text-light">
                                                                 Change Avatar <input type="file" hidden>
@@ -878,22 +878,22 @@
                                                     <label  class="form-label" for="team-leader">Project team members</label>
                                                     <div class="img-group d-flex justify-content-start">
                                                         <a class="user-avatar position-relative d-inline-block" href="#">
-                                                            <img src="assets/images/users/avatar-1.jpg" alt="avatar" class="thumb-md shadow-sm rounded-circle">
+                                                            <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="avatar" class="thumb-md shadow-sm rounded-circle">
                                                         </a>
                                                         <a class="user-avatar position-relative d-inline-block ms-n2" href="#">
-                                                            <img src="assets/images/users/avatar-2.jpg" alt="avatar" class="thumb-md shadow-sm rounded-circle">
+                                                            <img src="{{ asset('assets/images/users/avatar-2.jpg')}}" alt="avatar" class="thumb-md shadow-sm rounded-circle">
                                                         </a>
                                                         <a class="user-avatar position-relative d-inline-block ms-n2" href="#">
-                                                            <img src="assets/images/users/avatar-4.jpg" alt="avatar" class="thumb-md shadow-sm rounded-circle">
+                                                            <img src="{{ asset('assets/images/users/avatar-4.jpg')}}" alt="avatar" class="thumb-md shadow-sm rounded-circle">
                                                         </a>
                                                         <a class="user-avatar position-relative d-inline-block ms-n2" href="#">
-                                                            <img src="assets/images/users/avatar-5.jpg" alt="avatar" class="thumb-md shadow-sm rounded-circle">
+                                                            <img src="{{ asset('assets/images/users/avatar-5.jpg')}}" alt="avatar" class="thumb-md shadow-sm rounded-circle">
                                                         </a>
                                                         <a class="user-avatar position-relative d-inline-block ms-n2" href="#">
-                                                            <img src="assets/images/users/avatar-4.jpg" alt="avatar" class="thumb-md shadow-sm rounded-circle">
+                                                            <img src="{{ asset('assets/images/users/avatar-4.jpg')}}" alt="avatar" class="thumb-md shadow-sm rounded-circle">
                                                         </a>
                                                         <a class="user-avatar position-relative d-inline-block ms-n2" href="#">
-                                                            <img src="assets/images/users/avatar-6.jpg" alt="avatar" class="thumb-md shadow-sm rounded-circle">
+                                                            <img src="{{ asset('assets/images/users/avatar-6.jpg')}}" alt="avatar" class="thumb-md shadow-sm rounded-circle">
                                                         </a>
                                                         <a href="" class="user-avatar position-relative d-inline-block ms-1">
                                                             <span class="thumb-md shadow-sm justify-content-center d-flex align-items-center bg-info-subtle rounded-circle fw-semibold fs-6">+32</span>
@@ -1000,11 +1000,11 @@
         <!-- Javascript  -->  
         <!-- vendor js -->
         
-        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/libs/simplebar/simplebar.min.js"></script>
-        <script src="assets/libs/vanillajs-datepicker/js/datepicker-full.min.js"></script>
-        <script src="assets/js/pages/projects-create.init.js"></script>
-        <script src="assets/js/app.js"></script>
+        <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/vanillajs-datepicker/js/datepicker-full.min.js')}}"></script>
+        <script src="{{ asset('assets/js/pages/projects-create.init.js')}}"></script>
+        <script src="{{ asset('assets/js/app.js')}}"></script>
     </body>
     <!--end body-->
 </html>
