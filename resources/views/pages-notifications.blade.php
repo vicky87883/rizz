@@ -12,14 +12,14 @@
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
                 <!-- App favicon -->
-                <link rel="shortcut icon" href="assets/images/favicon.ico">
+                <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico')}}">
 
        
 
          <!-- App css -->
-         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -53,13 +53,13 @@
                         <li class="dropdown">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="false" aria-expanded="false">
-                            <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-sm rounded-circle">
+                            <img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" class="thumb-sm rounded-circle">
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" height="15" class="me-2">English</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/spain_flag.jpg')}}" alt="" height="15" class="me-2">Spanish</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/germany_flag.jpg')}}" alt="" height="15" class="me-2">German</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/french_flag.jpg')}}" alt="" height="15" class="me-2">French</a>
                             </div>
                         </li><!--end topbar-language-->
         
@@ -251,12 +251,12 @@
                         <li class="dropdown topbar-item">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                                 aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-lg rounded-circle">
+                                <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-lg rounded-circle">
                             </a>
                             <div class="dropdown-menu dropdown-menu-end py-0">
                                 <div class="d-flex align-items-center dropdown-item py-2 bg-secondary-subtle">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md rounded-circle">
+                                        <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-md rounded-circle">
                                     </div>
                                     <div class="flex-grow-1 ms-2 text-truncate align-self-center">
                                         <h6 class="my-0 fw-medium text-dark fs-13">William Martin</h6>
@@ -287,11 +287,11 @@
             <div class="brand">
                 <a href="index.html" class="logo">
                     <span>
-                        <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                        <img src="{{ asset('assets/images/logo-sm.png')}}" alt="logo-small" class="logo-sm">
                     </span>
                     <span class="">
-                        <img src="assets/images/logo-light.png" alt="logo-large" class="logo-lg logo-light">
-                        <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                        <img src="{{ asset('assets/images/logo-light.png')}}" alt="logo-large" class="logo-lg logo-light">
+                        <img src="{{ asset('assets/images/logo-dark.png')}}" alt="logo-large" class="logo-lg logo-dark">
                     </span>
                 </a>
             </div>
@@ -796,7 +796,7 @@
                                             <button type="button" class="btn btn-warning px-2">View All</button>
                                         </div> <!--end col--> 
                                         <div class="col-auto align-self-center">
-                                            <img src="assets/images/extra/card/notification.gif" alt="" height="90" class="rounded">
+                                            <img src="{{ asset('assets/images/extra/card/notification.gif')}}" alt="" height="90" class="rounded">
                                         </div> <!--end col-->                                                      
                                     </div><!--end row-->         
                                 </div><!--end card-body--> 
@@ -812,7 +812,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-10.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-10.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">Appointment with Charles Reiter<small class="text-muted ps-2">01:30 PM</small></h6>
@@ -835,7 +835,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">New Session booked by Joseph Rust<small class="text-muted ps-2">10:37 AM</small></h6>
@@ -858,7 +858,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-9.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-9.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">Payment Not Added<small class="text-muted ps-2">04:10 AM</small></h6>
@@ -885,7 +885,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-2.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-2.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">Password change email sent<small class="text-muted ps-2">07:45 PM</small></h6>
@@ -908,7 +908,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-3.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-3.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">Meeting at 07:45 PM <small class="text-muted ps-2">02:05 PM</small></h6>
@@ -931,7 +931,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-4.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-4.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">Payment Not Added<small class="text-muted ps-2">11:15 AM</small></h6>
@@ -954,7 +954,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-8.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-8.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">Payment Not Added<small class="text-muted ps-2">09:44 AM</small></h6>
@@ -981,7 +981,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-5.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-5.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">New system upgrade<small class="text-muted ps-2">01:30 PM</small></h6>
@@ -1004,7 +1004,7 @@
                                             <a href="#" class="">                                               
                                                 <div class="d-flex align-items-center">
                                                     <div class="flex-shrink-0">
-                                                        <img src="assets/images/users/avatar-7.jpg" alt="" class="thumb-lg rounded-circle">
+                                                        <img src="{{ asset('assets/images/users/avatar-7.jpg')}}" alt="" class="thumb-lg rounded-circle">
                                                     </div>
                                                     <div class="flex-grow-1 ms-2 text-truncate">
                                                         <h6 class="my-1 fw-medium text-dark fs-14">New Session booked by Joseph Rust<small class="text-muted ps-2">08:05 AM</small></h6>
@@ -1101,10 +1101,10 @@
         <!-- Javascript  -->  
         <!-- vendor js -->
         
-        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
 
-        <script src="assets/js/app.js"></script>
+        <script src="{{ asset('assets/js/app.js')}}"></script>
     </body>
     <!--end body-->
 </html>

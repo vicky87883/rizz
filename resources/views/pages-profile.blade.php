@@ -12,14 +12,14 @@
                 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
                 <!-- App favicon -->
-                <link rel="shortcut icon" href="assets/images/favicon.ico">
+                <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico')}}">
 
        
-        <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/libs/tobii/css/tobii.min.css')}}" rel="stylesheet" type="text/css" />
          <!-- App css -->
-         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-         <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/icons.min.css')}}" rel="stylesheet" type="text/css" />
+         <link href="{{ asset('assets/css/app.min.css')}}" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -53,13 +53,13 @@
                         <li class="dropdown">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="false" aria-expanded="false">
-                            <img src="assets/images/flags/us_flag.jpg" alt="" class="thumb-sm rounded-circle">
+                            <img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" class="thumb-sm rounded-circle">
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/us_flag.jpg" alt="" height="15" class="me-2">English</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/spain_flag.jpg" alt="" height="15" class="me-2">Spanish</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/germany_flag.jpg" alt="" height="15" class="me-2">German</a>
-                                <a class="dropdown-item" href="#"><img src="assets/images/flags/french_flag.jpg" alt="" height="15" class="me-2">French</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/us_flag.jpg')}}" alt="" height="15" class="me-2">English</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/spain_flag.jpg')}}" alt="" height="15" class="me-2">Spanish</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/germany_flag.jpg')}}" alt="" height="15" class="me-2">German</a>
+                                <a class="dropdown-item" href="#"><img src="{{ asset('assets/images/flags/french_flag.jpg')}}" alt="" height="15" class="me-2">French</a>
                             </div>
                         </li><!--end topbar-language-->
         
@@ -251,12 +251,12 @@
                         <li class="dropdown topbar-item">
                             <a class="nav-link dropdown-toggle arrow-none nav-icon" data-bs-toggle="dropdown" href="#" role="button"
                                 aria-haspopup="false" aria-expanded="false">
-                                <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-lg rounded-circle">
+                                <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-lg rounded-circle">
                             </a>
                             <div class="dropdown-menu dropdown-menu-end py-0">
                                 <div class="d-flex align-items-center dropdown-item py-2 bg-secondary-subtle">
                                     <div class="flex-shrink-0">
-                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md rounded-circle">
+                                        <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-md rounded-circle">
                                     </div>
                                     <div class="flex-grow-1 ms-2 text-truncate align-self-center">
                                         <h6 class="my-0 fw-medium text-dark fs-13">William Martin</h6>
@@ -287,11 +287,11 @@
             <div class="brand">
                 <a href="index.html" class="logo">
                     <span>
-                        <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
+                        <img src="{{ asset('assets/images/logo-sm.png')}}" alt="logo-small" class="logo-sm">
                     </span>
                     <span class="">
-                        <img src="assets/images/logo-light.png" alt="logo-large" class="logo-lg logo-light">
-                        <img src="assets/images/logo-dark.png" alt="logo-large" class="logo-lg logo-dark">
+                        <img src="{{ asset('assets/images/logo-light.png')}}" alt="logo-large" class="logo-lg logo-light">
+                        <img src="{{ asset('assets/images/logo-dark.png')}}" alt="logo-large" class="logo-lg logo-dark">
                     </span>
                 </a>
             </div>
@@ -793,7 +793,7 @@
                                         <div class="col-lg-4 align-self-center mb-3 mb-lg-0">
                                             <div class="d-flex align-items-center flex-row flex-wrap">
                                                 <div class="position-relative me-3">
-                                                    <img src="assets/images/users/avatar-7.jpg" alt="" height="120" class="rounded-circle">
+                                                    <img src="{{ asset('assets/images/users/avatar-7.jpg')}}" alt="" height="120" class="rounded-circle">
                                                     <a href="#" class="thumb-md justify-content-center d-flex align-items-center bg-primary text-white rounded-circle position-absolute end-0 bottom-0 border border-3 border-card-bg">
                                                         <i class="fas fa-camera"></i>
                                                     </a>
@@ -951,7 +951,7 @@
                                                     <div class="row align-items-center">
                                                         <div class="col">                      
                                                             <div class="d-flex align-items-center">
-                                                                <img src="assets/images/users/avatar-10.jpg" class="thumb-md align-self-center rounded-circle" alt="...">
+                                                                <img src="{{ asset('assets/images/users/avatar-10.jpg')}}" class="thumb-md align-self-center rounded-circle" alt="...">
                                                                 <div class="flex-grow-1 ms-2">
                                                                     <h5 class="m-0 fs-14">Anderson Vanhron</h5>
                                                                     <p class="text-muted mb-0 fs-12">online</p>
@@ -992,7 +992,7 @@
                                         <div class="col-12">                                            
                                             <div class="card">
                                                 <div class="card-body">                                                                                          
-                                                    <img src="assets/images/extra/card/post-1.jpg" alt="" class="img-fluid">
+                                                    <img src="{{ asset('assets/images/extra/card/post-1.jpg')}}" alt="" class="img-fluid">
                                                     <div class="post-title mt-3">
                                                         <div class="row">
                                                             <div class="col">
@@ -1059,7 +1059,7 @@
                                                         <li>
                                                             <div class="row">
                                                                 <div class="col-auto">
-                                                                    <img src="assets/images/users/avatar-2.jpg" alt="" class="thumb-md rounded-circle">
+                                                                    <img src="{{ asset('assets/images/users/avatar-2.jpg')}}" alt="" class="thumb-md rounded-circle">
                                                                 </div><!--end col-->
                                                                 <div class="col">
                                                                     <div class="bg-light rounded ms-n2 bg-light-alt p-3">
@@ -1084,7 +1084,7 @@
                                                                 <li>
                                                                     <div class="row mt-3">
                                                                         <div class="col-auto">
-                                                                            <img src="assets/images/logo-sm.png" alt="" class="thumb-md rounded-circle">
+                                                                            <img src="{{ asset('assets/images/logo-sm.png')}}" alt="" class="thumb-md rounded-circle">
                                                                         </div><!--end col-->
                                                                         <div class="col">
                                                                             <div class="bg-light rounded ms-n2 bg-light-alt p-3">
@@ -1109,7 +1109,7 @@
                                                         <li class="mt-3">
                                                             <div class="row">
                                                                 <div class="col-auto">
-                                                                    <img src="assets/images/users/avatar-1.jpg" alt="" class="thumb-md rounded-circle">
+                                                                    <img src="{{ asset('assets/images/users/avatar-1.jpg')}}" alt="" class="thumb-md rounded-circle">
                                                                 </div><!--end col-->
                                                                 <div class="col">
                                                                     <div class="bg-light rounded ms-n2 bg-light-alt p-3">
@@ -1132,7 +1132,7 @@
                                                         <li class="mt-3">
                                                             <div class="row">
                                                                 <div class="col-auto">
-                                                                    <img src="assets/images/users/avatar-5.jpg" alt="" class="thumb-md rounded-circle">
+                                                                    <img src="{{ asset('assets/images/users/avatar-5.jpg')}}" alt="" class="thumb-md rounded-circle">
                                                                 </div><!--end col-->
                                                                 <div class="col">
                                                                     <div class="bg-light rounded ms-n2 bg-light-alt p-3">
@@ -1155,7 +1155,7 @@
                                                                 <li>
                                                                     <div class="row mt-3">
                                                                         <div class="col-auto">
-                                                                            <img src="assets/images/logo-sm.png" alt="" class="thumb-md rounded-circle">
+                                                                            <img src="{{ asset('assets/images/logo-sm.png')}}" alt="" class="thumb-md rounded-circle">
                                                                         </div><!--end col-->
                                                                         <div class="col">
                                                                             <div class="bg-light rounded ms-n2 bg-light-alt p-3">
@@ -1205,23 +1205,23 @@
                                 <div class="tab-pane p-3" id="gallery" role="tabpanel">
                                     <div id="grid" class="row g-0">
                                         <div class="col-md-6 col-lg-4 picture-item">
-                                            <a href="assets/images/extra/card/img-1.jpg" class="lightbox">
-                                                <img src="assets/images/extra/card/img-1.jpg" alt="" class="img-fluid" />
+                                            <a href="{{ asset('assets/images/extra/card/img-1.jpg')}}" class="lightbox">
+                                                <img src="{{ asset('assets/images/extra/card/img-1.jpg')}}" alt="" class="img-fluid" />
                                             </a>  
                                         </div>
                                         <div class="col-md-6 col-lg-4 picture-item picture-item--overlay">
-                                            <a href="assets/images/extra/card/img-2.jpg" class="lightbox">
-                                                <img src="assets/images/extra/card/img-2.jpg" alt="" class="img-fluid" />
+                                            <a href="{{ asset('assets/images/extra/card/img-2.jpg')}}" class="lightbox">
+                                                <img src="{{ asset('assets/images/extra/card/img-2.jpg')}}" alt="" class="img-fluid" />
                                             </a> 
                                         </div>
                                         <div class="col-md-6 col-lg-4 picture-item">
-                                            <a href="assets/images/extra/card/img-3.jpg" class="lightbox">
-                                                <img src="assets/images/extra/card/img-3.jpg" alt="" class="img-fluid" />
+                                            <a href="{{ asset('assets/images/extra/card/img-3.jpg')}}" class="lightbox">
+                                                <img src="{{ asset('assets/images/extra/card/img-3.jpg')}}" alt="" class="img-fluid" />
                                             </a> 
                                         </div>
                                         <div class="col-md-6 col-lg-4 picture-item picture-item--h2">
-                                            <a href="assets/images/extra/card/img-4.jpg" class="lightbox">
-                                                <img src="assets/images/extra/card/img-4.jpg" alt="" class="img-fluid" />
+                                            <a href="{{ asset('assets/images/extra/card/img-4.jpg')}}" class="lightbox">
+                                                <img src="{{ asset('assets/images/extra/card/img-4.jpg')}}" alt="" class="img-fluid" />
                                             </a> 
                                         </div>
                                         <div class="col-md-6 col-lg-4 picture-item">
@@ -1449,12 +1449,12 @@
         <!-- Javascript  -->  
         <!-- vendor js -->
         
-        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/libs/simplebar/simplebar.min.js"></script>
-        <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
-        <script src="assets/libs/tobii/js/tobii.min.js"></script>
-        <script src="assets/js/pages/profile.init.js"></script>
-        <script src="assets/js/app.js"></script>
+        <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/simplebar/simplebar.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/apexcharts/apexcharts.min.js')}}"></script>
+        <script src="{{ asset('assets/libs/tobii/js/tobii.min.js')}}"></script>
+        <script src="{{ asset('assets/js/pages/profile.init.js')}}"></script>
+        <script src="{{ asset('assets/js/app.js')}}"></script>
     </body>
     <!--end body-->
 </html>
