@@ -34,7 +34,7 @@
                             <div class="card">
                                 <div class="card-body p-0 bg-black auth-header-box rounded-top">
                                     <div class="text-center p-3">
-                                        <a href="index.html" class="logo logo-admin">
+                                        <a href="index" class="logo logo-admin">
                                             <img src="{{ asset('assets/images/logo-sm.png')}}" height="50" alt="logo" class="auth-logo">
                                         </a>
                                         <h4 class="mt-3 mb-1 fw-semibold text-white fs-18">Create an account</h4>   
@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                                 <div class="card-body pt-0">                                    
-                                    <form class="my-4" action="index.html">            
+                                    <form class="my-4" action="index">            
                                         <div class="form-group mb-2">
                                             <label class="form-label" for="username">Username</label>
                                             <input type="text" class="form-control" id="username" name="username" placeholder="Enter username">                               
@@ -86,7 +86,7 @@
                                         </div> <!--end form-group-->                           
                                     </form><!--end form-->
                                     <div class="text-center">
-                                        <p class="text-muted">Already have an account ?  <a href="auth-login.html" class="text-primary ms-2">Log in</a></p>
+                                        <p class="text-muted">Already have an account ?  <a href="auth-login" class="text-primary ms-2">Log in</a></p>
                                     </div>
                                 </div><!--end card-body-->
                             </div><!--end card-->

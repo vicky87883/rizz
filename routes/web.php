@@ -239,8 +239,8 @@ Route::get('/ui-buttons', function () {
 Route::get('/ui-cards', function () {
     return view('ui-cards');    
 });
-Route::get('/ui-carousel', function () {
-    return view('ui-carousel'); 
+Route::get('/ui-carousels', function () {
+    return view('ui-carousels'); 
 });
 Route::get('/ui-dropdowns', function () {
     return view('ui-dropdowns');

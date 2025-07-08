@@ -34,7 +34,7 @@
                             <div class="card">
                                 <div class="card-body p-0 bg-black auth-header-box rounded-top">
                                     <div class="text-center p-3">
-                                        <a href="index.html" class="logo logo-admin">
+                                        <a href="index" class="logo logo-admin">
                                             <img src="{{ asset('assets/images/logo-sm.png')}}" height="50" alt="logo" class="auth-logo">
                                         </a>
                                         <h4 class="mt-3 mb-1 fw-semibold text-white fs-18">Oops! Sorry page does not found</h4>   
@@ -47,7 +47,7 @@
                                         <h1 class="my-2">404!</h1>  
                                         <h5 class="fs-16 text-muted mb-3">Somthing went wrong</h5>                                    
                                     </div>   
-                                    <a class="btn btn-primary w-100" href="index.html">Back to Dashboard <i class="fas fa-redo ms-1"></i></a> 
+                                    <a class="btn btn-primary w-100" href="index">Back to Dashboard <i class="fas fa-redo ms-1"></i></a> 
                                 </div><!--end card-body-->
                             </div><!--end card-->
                         </div><!--end col-->

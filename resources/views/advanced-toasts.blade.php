@@ -242,7 +242,7 @@
                             
                                 </div>
                                 <!-- All-->
-                                <a href="pages-notifications.html" class="dropdown-item text-center text-dark fs-13 py-2">
+                                <a href="pages-notifications" class="dropdown-item text-center text-dark fs-13 py-2">
                                     View All <i class="fi-arrow-right"></i>
                                 </a>
                             </div>
@@ -265,14 +265,14 @@
                                 </div>
                                 <div class="dropdown-divider mt-0"></div>
                                 <small class="text-muted px-2 pb-1 d-block">Account</small>
-                                <a class="dropdown-item" href="pages-profile.html"><i class="las la-user fs-18 me-1 align-text-bottom"></i> Profile</a>
-                                <a class="dropdown-item" href="pages-faq.html"><i class="las la-wallet fs-18 me-1 align-text-bottom"></i> Earning</a>
+                                <a class="dropdown-item" href="pages-profile"><i class="las la-user fs-18 me-1 align-text-bottom"></i> Profile</a>
+                                <a class="dropdown-item" href="pages-faq"><i class="las la-wallet fs-18 me-1 align-text-bottom"></i> Earning</a>
                                 <small class="text-muted px-2 py-1 d-block">Settings</small>                        
-                                <a class="dropdown-item" href="pages-profile.html"><i class="las la-cog fs-18 me-1 align-text-bottom"></i>Account Settings</a>
-                                <a class="dropdown-item" href="pages-profile.html"><i class="las la-lock fs-18 me-1 align-text-bottom"></i> Security</a>
-                                <a class="dropdown-item" href="pages-faq.html"><i class="las la-question-circle fs-18 me-1 align-text-bottom"></i> Help Center</a>                       
+                                <a class="dropdown-item" href="pages-profile"><i class="las la-cog fs-18 me-1 align-text-bottom"></i>Account Settings</a>
+                                <a class="dropdown-item" href="pages-profile"><i class="las la-lock fs-18 me-1 align-text-bottom"></i> Security</a>
+                                <a class="dropdown-item" href="pages-faq"><i class="las la-question-circle fs-18 me-1 align-text-bottom"></i> Help Center</a>                       
                                 <div class="dropdown-divider mb-0"></div>
-                                <a class="dropdown-item text-danger" href="auth-login.html"><i class="las la-power-off fs-18 me-1 align-text-bottom"></i> Logout</a>
+                                <a class="dropdown-item text-danger" href="auth-login"><i class="las la-power-off fs-18 me-1 align-text-bottom"></i> Logout</a>
                             </div>
                         </li>
                     </ul><!--end topbar-nav-->
@@ -285,7 +285,7 @@
         <div class="startbar d-print-none">
             <!--start brand-->
             <div class="brand">
-                <a href="index.html" class="logo">
+                <a href="index" class="logo">
                     <span>
                         <img src="assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
                     </span>
@@ -318,10 +318,10 @@
                                 <div class="collapse " id="sidebarDashboards">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="index.html">Analytics</a>
+                                            <a class="nav-link" href="index">Analytics</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ecommerce-index.html">Ecommerce</a>
+                                            <a class="nav-link" href="ecommerce-index">Ecommerce</a>
                                         </li><!--end nav-item-->
                                     </ul><!--end nav-->
                                 </div><!--end startbarDashboards-->
@@ -342,10 +342,10 @@
                                             <div class="collapse " id="sidebarAnalytics">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a href="analytics-customers.html" class="nav-link ">Customers</a>
+                                                        <a href="analytics-customers" class="nav-link ">Customers</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a href="analytics-reports.html" class="nav-link ">Reports</a>
+                                                        <a href="analytics-reports" class="nav-link ">Reports</a>
                                                     </li><!--end nav-item-->
                                                 </ul><!--end nav-->
                                             </div>
@@ -358,28 +358,28 @@
                                             <div class="collapse " id="sidebarProjects">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="projects-clients.html">Clients</a>
+                                                        <a class="nav-link" href="projects-clients">Clients</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="projects-team.html">Team</a>
+                                                        <a class="nav-link" href="projects-team">Team</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="projects-project.html">Project</a>
+                                                        <a class="nav-link" href="projects-project">Project</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="projects-task.html">Task</a>
+                                                        <a class="nav-link" href="projects-task">Task</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="projects-kanban-board.html">Kanban Board</a>
+                                                        <a class="nav-link" href="projects-kanban-board">Kanban Board</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="projects-chat.html">Chat</a>
+                                                        <a class="nav-link" href="projects-chat">Chat</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="projects-users.html">Users</a>
+                                                        <a class="nav-link" href="projects-users">Users</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="projects-create.html">Project Create</a>
+                                                        <a class="nav-link" href="projects-create">Project Create</a>
                                                     </li><!--end nav-item--> 
                                                 </ul><!--end nav-->
                                             </div>
@@ -392,38 +392,38 @@
                                             <div class="collapse " id="sidebarEcommerce">
                                                 <ul class="nav flex-column">
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-products.html">Products</a>
+                                                        <a class="nav-link" href="ecommerce-products">Products</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-customers.html">Customers</a>
+                                                        <a class="nav-link" href="ecommerce-customers">Customers</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-customer-details.html">Customer Details</a>
+                                                        <a class="nav-link" href="ecommerce-customer-details">Customer Details</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-orders.html">Orders</a>
+                                                        <a class="nav-link" href="ecommerce-orders">Orders</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-order-details.html">Order Details</a>
+                                                        <a class="nav-link" href="ecommerce-order-details">Order Details</a>
                                                     </li><!--end nav-item-->
                                                     <li class="nav-item">
-                                                        <a class="nav-link" href="ecommerce-refunds.html">Refunds</a>
+                                                        <a class="nav-link" href="ecommerce-refunds">Refunds</a>
                                                     </li><!--end nav-item-->
                                                 </ul><!--end nav-->
                                             </div>
                                         </li><!--end nav-item-->
                                  
                                         <li class="nav-item">
-                                            <a class="nav-link" href="apps-chat.html">Chat</a>
+                                            <a class="nav-link" href="apps-chat">Chat</a>
                                         </li><!--end nav-item--> 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="apps-contact-list.html">Contact List</a>
+                                            <a class="nav-link" href="apps-contact-list">Contact List</a>
                                         </li><!--end nav-item--> 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="apps-calendar.html">Calendar</a>
+                                            <a class="nav-link" href="apps-calendar">Calendar</a>
                                         </li><!--end nav-item-->  
                                         <li class="nav-item">
-                                            <a class="nav-link" href="apps-invoice.html">Invoice</a>
+                                            <a class="nav-link" href="apps-invoice">Invoice</a>
                                         </li><!--end nav-item-->                                
                                     </ul><!--end nav-->
                                 </div><!--end startbarApplications-->
@@ -444,64 +444,64 @@
                                 <div class="collapse " id="sidebarElements">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-alerts.html">Alerts</a>
+                                            <a class="nav-link" href="ui-alerts">Alerts</a>
                                         </li><!--end nav-item--> 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-avatar.html">Avatar</a>
+                                            <a class="nav-link" href="ui-avatar">Avatar</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-buttons.html">Buttons</a>
+                                            <a class="nav-link" href="ui-buttons">Buttons</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-badges.html">Badges</a>
+                                            <a class="nav-link" href="ui-badges">Badges</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-cards.html">Cards</a>
+                                            <a class="nav-link" href="ui-cards">Cards</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-carousels.html">Carousels</a>
+                                            <a class="nav-link" href="ui-carousels">Carousels</a>
                                         </li><!--end nav-item-->                                
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-dropdowns.html">Dropdowns</a>
+                                            <a class="nav-link" href="ui-dropdowns">Dropdowns</a>
                                         </li><!--end nav-item-->                                   
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-grids.html">Grids</a>
+                                            <a class="nav-link" href="ui-grids">Grids</a>
                                         </li><!--end nav-item-->                                
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-images.html">Images</a>
+                                            <a class="nav-link" href="ui-images">Images</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-list.html">List</a>
+                                            <a class="nav-link" href="ui-list">List</a>
                                         </li><!--end nav-item-->                                   
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-modals.html">Modals</a>
+                                            <a class="nav-link" href="ui-modals">Modals</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-navs.html">Navs</a>
+                                            <a class="nav-link" href="ui-navs">Navs</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-navbar.html">Navbar</a>
+                                            <a class="nav-link" href="ui-navbar">Navbar</a>
                                         </li><!--end nav-item--> 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-paginations.html">Paginations</a>
+                                            <a class="nav-link" href="ui-paginations">Paginations</a>
                                         </li><!--end nav-item-->   
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-popover-tooltips.html">Popover & Tooltips</a>
+                                            <a class="nav-link" href="ui-popover-tooltips">Popover & Tooltips</a>
                                         </li><!--end nav-item-->                                
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-progress.html">Progress</a>
+                                            <a class="nav-link" href="ui-progress">Progress</a>
                                         </li><!--end nav-item-->                                
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-spinners.html">Spinners</a>
+                                            <a class="nav-link" href="ui-spinners">Spinners</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-tabs-accordions.html">Tabs & Accordions</a>
+                                            <a class="nav-link" href="ui-tabs-accordions">Tabs & Accordions</a>
                                         </li><!--end nav-item-->                               
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-typography.html">Typography</a>
+                                            <a class="nav-link" href="ui-typography">Typography</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="ui-videos.html">Videos</a>
+                                            <a class="nav-link" href="ui-videos">Videos</a>
                                         </li><!--end nav-item--> 
                                     </ul><!--end nav-->
                                 </div><!--end startbarElements-->
@@ -515,34 +515,34 @@
                                 <div class="collapse " id="sidebarAdvancedUI">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-animation.html">Animation</a>
+                                            <a class="nav-link" href="advanced-animation">Animation</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-clipboard.html">Clip Board</a>
+                                            <a class="nav-link" href="advanced-clipboard">Clip Board</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-dragula.html">Dragula</a>
+                                            <a class="nav-link" href="advanced-dragula">Dragula</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-files.html">File Manager</a>
+                                            <a class="nav-link" href="advanced-files">File Manager</a>
                                         </li><!--end nav-item--> 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-highlight.html">Highlight</a>
+                                            <a class="nav-link" href="advanced-highlight">Highlight</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-rangeslider.html">Range Slider</a>
+                                            <a class="nav-link" href="advanced-rangeslider">Range Slider</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-ratings.html">Ratings</a>
+                                            <a class="nav-link" href="advanced-ratings">Ratings</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-ribbons.html">Ribbons</a>
+                                            <a class="nav-link" href="advanced-ribbons">Ribbons</a>
                                         </li><!--end nav-item-->                                  
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-sweetalerts.html">Sweet Alerts</a>
+                                            <a class="nav-link" href="advanced-sweetalerts">Sweet Alerts</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="advanced-toasts.html">Toasts</a>
+                                            <a class="nav-link" href="advanced-toasts">Toasts</a>
                                         </li><!--end nav-item-->
                                     </ul><!--end nav-->
                                 </div><!--end startbarAdvancedUI-->
@@ -556,25 +556,25 @@
                                 <div class="collapse " id="sidebarForms">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-elements.html">Basic Elements</a>
+                                            <a class="nav-link" href="forms-elements">Basic Elements</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-advanced.html">Advance Elements</a>
+                                            <a class="nav-link" href="forms-advanced">Advance Elements</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-validation.html">Validation</a>
+                                            <a class="nav-link" href="forms-validation">Validation</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-wizard.html">Wizard</a>
+                                            <a class="nav-link" href="forms-wizard">Wizard</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-editors.html">Editors</a>
+                                            <a class="nav-link" href="forms-editors">Editors</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-uploads.html">File Upload</a>
+                                            <a class="nav-link" href="forms-uploads">File Upload</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="forms-img-crop.html">Image Crop</a>
+                                            <a class="nav-link" href="forms-img-crop">Image Crop</a>
                                         </li><!--end nav-item-->
                                     </ul><!--end nav-->
                                 </div><!--end startbarForms-->
@@ -588,16 +588,16 @@
                                 <div class="collapse " id="sidebarCharts">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="charts-apex.html">Apex</a>
+                                            <a class="nav-link" href="charts-apex">Apex</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="charts-justgage.html">JustGage</a>
+                                            <a class="nav-link" href="charts-justgage">JustGage</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="charts-chartjs.html">Chartjs</a>
+                                            <a class="nav-link" href="charts-chartjs">Chartjs</a>
                                         </li><!--end nav-item--> 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="charts-toast-ui.html">Toast</a>
+                                            <a class="nav-link" href="charts-toast-ui">Toast</a>
                                         </li><!--end nav-item--> 
                                     </ul><!--end nav-->
                                 </div><!--end startbarCharts-->
@@ -611,13 +611,13 @@
                                 <div class="collapse " id="sidebarTables">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="tables-basic.html">Basic</a>
+                                            <a class="nav-link" href="tables-basic">Basic</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="tables-datatable.html">Datatables</a>
+                                            <a class="nav-link" href="tables-datatable">Datatables</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="tables-editable.html">Editable</a>
+                                            <a class="nav-link" href="tables-editable">Editable</a>
                                         </li><!--end nav-item--> 
                                     </ul><!--end nav-->
                                 </div><!--end startbarTables-->
@@ -631,16 +631,16 @@
                                 <div class="collapse " id="sidebarIcons">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="icons-fontawesome.html">Font Awesome</a>
+                                            <a class="nav-link" href="icons-fontawesome">Font Awesome</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="icons-lineawesome.html">Line Awesome</a>
+                                            <a class="nav-link" href="icons-lineawesome">Line Awesome</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="icons-icofont.html">Icofont</a>
+                                            <a class="nav-link" href="icons-icofont">Icofont</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="icons-iconoir.html">Iconoir</a>
+                                            <a class="nav-link" href="icons-iconoir">Iconoir</a>
                                         </li><!--end nav-item-->
                                     </ul><!--end nav-->
                                 </div><!--end startbarIcons-->
@@ -654,13 +654,13 @@
                                 <div class="collapse " id="sidebarMaps">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="maps-google.html">Google Maps</a>
+                                            <a class="nav-link" href="maps-google">Google Maps</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="maps-leaflet.html">Leaflet Maps</a>
+                                            <a class="nav-link" href="maps-leaflet">Leaflet Maps</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="maps-vector.html">Vector Maps</a>
+                                            <a class="nav-link" href="maps-vector">Vector Maps</a>
                                         </li><!--end nav-item--> 
                                     </ul><!--end nav-->
                                 </div><!--end startbarMaps-->
@@ -674,13 +674,13 @@
                                 <div class="collapse " id="sidebarEmailTemplates">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="email-templates-basic.html">Basic Action Email</a>
+                                            <a class="nav-link" href="email-templates-basic">Basic Action Email</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="email-templates-alert.html">Alert Email</a>
+                                            <a class="nav-link" href="email-templates-alert">Alert Email</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="email-templates-billing.html">Billing Email</a>
+                                            <a class="nav-link" href="email-templates-billing">Billing Email</a>
                                         </li><!--end nav-item-->  
                                     </ul><!--end nav-->
                                 </div><!--end startbarEmailTemplates-->
@@ -701,31 +701,31 @@
                                 <div class="collapse " id="sidebarPages">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-profile.html">Profile</a>
+                                            <a class="nav-link" href="pages-profile">Profile</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-notifications.html">Notifications</a>
+                                            <a class="nav-link" href="pages-notifications">Notifications</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-timeline.html">Timeline</a>
+                                            <a class="nav-link" href="pages-timeline">Timeline</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-treeview.html">Treeview</a>
+                                            <a class="nav-link" href="pages-treeview">Treeview</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-starter.html">Starter Page</a>
+                                            <a class="nav-link" href="pages-starter">Starter Page</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-pricing.html">Pricing</a>
+                                            <a class="nav-link" href="pages-pricing">Pricing</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-blogs.html">Blogs</a>
+                                            <a class="nav-link" href="pages-blogs">Blogs</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-faq.html">FAQs</a>
+                                            <a class="nav-link" href="pages-faq">FAQs</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="pages-gallery.html">Gallery</a>
+                                            <a class="nav-link" href="pages-gallery">Gallery</a>
                                         </li><!--end nav-item-->  
                                     </ul><!--end nav-->
                                 </div><!--end startbarPages-->
@@ -739,25 +739,25 @@
                                 <div class="collapse " id="sidebarAuthentication">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="auth-login.html">Log in</a>
+                                            <a class="nav-link" href="auth-login">Log in</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="auth-register.html">Register</a>
+                                            <a class="nav-link" href="auth-register">Register</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="auth-recover-pw.html">Re-Password</a>
+                                            <a class="nav-link" href="auth-recover-pw">Re-Password</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="auth-lock-screen.html">Lock Screen</a>
+                                            <a class="nav-link" href="auth-lock-screen">Lock Screen</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="auth-maintenance.html">Maintenance</a>
+                                            <a class="nav-link" href="auth-maintenance">Maintenance</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="auth-404.html">Error 404</a>
+                                            <a class="nav-link" href="auth-404">Error 404</a>
                                         </li><!--end nav-item-->
                                         <li class="nav-item">
-                                            <a class="nav-link" href="auth-500.html">Error 500</a>
+                                            <a class="nav-link" href="auth-500">Error 500</a>
                                         </li><!--end nav-item-->
                                     </ul><!--end nav-->
                                 </div><!--end startbarAuthentication-->
